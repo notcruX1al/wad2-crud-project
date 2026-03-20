@@ -2,8 +2,8 @@
 
 This is a simple project showcasing a task management system, where users can create, view, edit, and delete tasks.
 
-## The fields used in my database table:
-id
+# The fields used in my database table:
+* id
 title (string)
 description (text, nullable)
 status (enum)
