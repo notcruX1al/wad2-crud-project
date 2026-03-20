@@ -18,7 +18,9 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        Student::factory(200)->create();
+        $this->call([
+            TaskSeeder::class,
+        ]);
 
         User::factory()->create([
             'name' => 'Test User',
