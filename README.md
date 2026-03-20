@@ -4,12 +4,11 @@ This is a simple project showcasing a task management system, where users can cr
 
 # The fields used in my database table:
 * id
-title (string)
-description (text, nullable)
-status (enum)
-values in current code: Pending, In Progress, Completed
-created_at (timestamp)
-updated_at (timestamp)
+* title (string)
+* description (text, nullable)
+* status (enum) values in current code: Pending, In Progress, Completed
+* created_at (timestamp)
+* updated_at (timestamp)
 
 # Screenshot showing the working CRUD operations.
 <img width="1366" height="761" alt="image" src="https://github.com/user-attachments/assets/12a86273-05ce-4563-ad98-a8acd5b9ed08" />
